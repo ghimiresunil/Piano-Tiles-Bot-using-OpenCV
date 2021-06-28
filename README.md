@@ -30,13 +30,32 @@ _**Additional Project: Do checkout our previous projects on**_ “A computer vis
 ## IMPORT NECESSARY LIBRARIES
 
 <code> 
->>> import random
->>> import time
->>> import cv2
->>> import imutils
->>> import keyboard
->>> import numpy as np
->>> import pyautogui
->>> import pytesseract
->>> import win32api
+>>> import random <br>
+>>> import time <br>
+>>> import cv2 <br>
+>>> import imutils <br>
+>>> import keyboard <br>
+>>> import numpy as np <br>
+>>> import pyautogui <br>
+>>> import pytesseract <br>
+>>> import win32api <br>
 >>> import win32con </code>
+
+## PIANO TILES BOT SETUP
+
+<code>
+>>> positions = list(range(start, end, jump)) <br>
+>>> while True: <br>
+>>>     if keyboard.is_pressed('esc'): <br>
+>>>         break <br>
+>>>     elif keyboard.is_pressed('s'): <br>
+>>>         print("Started") <br>
+>>>         prev = -1 <br>
+>>>         while keyboard.is_pressed('q') == False and keyboard.is_pressed('Q') == False: <br>
+>>>             for pos, col in enumerate(positions): <br>
+>>>                 if prev != pos and pyautogui.pixel(col, row - delay)[0] < 50: <br>
+>>>                     actionClick(col, row) <br>
+>>>                     prev = pos <br>
+>>>                     break <br>
+>>> print("Finished") <br>
+<code>
