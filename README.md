@@ -1,12 +1,13 @@
 # Piano Tiles Bot
 
 ## SHORT INTRODUCTION
+![piano-tiles-bot](https://user-images.githubusercontent.com/40186859/123657461-87aa4b80-d850-11eb-92e2-8ff066586a71.png)
 
 We hope you and your family are keeping safe. In this tutorial, we are developing a short and fun project Piano Tiles Bot using OpenCV. The question may arise in our mind, “What type of game is piano tiles”, so, the piano tiles game is simply we should tap the black tiles very fast without losing any of them or hitting a white tile.
 
 The concept used here is, we first by selecting a region to track for black tiles. Then within that region, if the pixel value of any column goes below the threshold (let’s say 100, then it is black). Then we simply simulate a mouse click over that region. The game consists of 4 vertical lanes so the bot checks only one column per lane and if it finds a pixel with black color it clicks the mouse at its position and then starts to search for the new tile to hit.
 
-_**Additional Project: Do checkout our previous projects on**_ “A computer vision based vehicle detection and counting system“
+_**Additional Project: Do checkout our previous projects on**_ [https://graspcoding.com/a-computer-vision-based-vehicle-detection-and-counting-system-ai-project/](“A computer vision based vehicle detection and counting system“)
 
 ## REQUIRED LIBRARY 
 
@@ -60,3 +61,10 @@ _**Additional Project: Do checkout our previous projects on**_ “A computer vis
 >>>                     break 
 >>> print("Finished") 
 ```
+## RESULT
+
+https://user-images.githubusercontent.com/40186859/123657009-23878780-d850-11eb-9a4a-a4de78791625.mp4
+
+## ☺ Thanks for your time ☺
+
+What do you think of this “Piano Tiles Bot using OpenCV“? Let us know by leaving a comment below. (Appreciation, Suggestions, and Questions are highly appreciated).
