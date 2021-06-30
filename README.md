@@ -7,7 +7,7 @@ We hope you and your family are keeping safe. In this tutorial, we are developin
 
 The concept used here is, we first by selecting a region to track for black tiles. Then within that region, if the pixel value of any column goes below the threshold (let’s say 100, then it is black). Then we simply simulate a mouse click over that region. The game consists of 4 vertical lanes so the bot checks only one column per lane and if it finds a pixel with black color it clicks the mouse at its position and then starts to search for the new tile to hit.
 
-_**Additional Project: Do checkout our previous projects on**_ [https://graspcoding.com/a-computer-vision-based-vehicle-detection-and-counting-system-ai-project/](“A computer vision based vehicle detection and counting system“)
+_**Additional Project: Do checkout our previous projects on**_ [A computer vision based vehicle detection and counting system“](https://graspcoding.com/a-computer-vision-based-vehicle-detection-and-counting-system-ai-project/)
 
 ## REQUIRED LIBRARY 
 
